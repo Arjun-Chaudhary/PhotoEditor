@@ -1,0 +1,113 @@
+
+<FrameLayout android:id="@+id/frameLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+
+		<ImageView android:id="@+id/iv_edit" android:src="@drawable/you"
+			android:layout_width="match_parent" android:layout_height="300dp"></ImageView>
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/textView1" android:text="Brightness"
+			android:textSize="13dp" android:textStyle="bold"></TextView>
+
+		<SeekBar android:layout_width="match_parent" android:id="@+id/seekBar1"
+			android:layout_height="wrap_content" android:max="100"
+			android:maxHeight="4dp"></SeekBar>
+
+
+
+
+
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/Saturation" android:text="Saturation"
+			android:textSize="13dp" android:textStyle="bold"></TextView>
+
+
+		<SeekBar android:layout_width="match_parent" android:id="@+id/seekBar2"
+			android:layout_height="wrap_content" android:max="10"
+			android:maxHeight="4dp"></SeekBar>
+
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/textView3" android:text="Hue" android:textSize="13dp"
+			android:textStyle="bold"></TextView>
+
+		<SeekBar android:layout_width="match_parent" android:id="@+id/seekBar3"
+			android:layout_height="wrap_content" android:max="10"
+			android:maxHeight="4dp"></SeekBar>
+	</LinearLayout>
+	<SlidingDrawer android:id="@+id/slidingDrawer1"
+		android:handle="@+id/handle" android:content="@+id/content"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+		<Button android:layout_height="wrap_content" android:text="Add Effects"
+			android:layout_width="wrap_content" android:id="@+id/handle"
+			android:background="#FF0000" android:textColor="#FFFFFF"
+			android:textStyle="bold"></Button>
+		<LinearLayout android:id="@+id/content"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<Button android:text="Greyscale" android:layout_height="20dp"
+				android:id="@+id/greyscale" android:layout_width="match_parent"
+				android:background="#778899" android:textColor="#FFFFFF"
+				android:textStyle="bold"></Button>
+
+			<Button android:text="Reflection" android:layout_height="20dp"
+				android:id="@+id/reflection" android:layout_width="match_parent"
+				android:background="#9932CC" android:textColor="#FFFFFF"
+				android:textStyle="bold"></Button>
+
+
+			<Button android:text="Snow Effect" android:layout_height="20dp"
+				android:id="@+id/snoweffect" android:layout_width="match_parent"
+				android:background="#000000" android:textColor="#FFFFFF"
+				android:textStyle="bold"></Button>
+				
+				<Button android:text="Flip horizontal" android:layout_height="20dp"
+				android:id="@+id/fliph" android:layout_width="match_parent"
+				android:background="#FF8C00" android:textColor="#FFFFFF"
+				android:textStyle="bold"></Button>
+				
+				<Button android:text="Flip Vertical" android:layout_height="20dp"
+				android:id="@+id/flipv" android:layout_width="match_parent"
+				android:background="#8B008B" android:textColor="#FFFFFF"
+				android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</LinearLayout>
+	</SlidingDrawer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

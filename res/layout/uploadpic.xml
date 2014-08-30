@@ -1,0 +1,40 @@
+
+<RelativeLayout android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:textSize="40dp"
+		android:layout_height="wrap_content" android:id="@+id/textView1"
+		android:textColor="#FF4500" android:text="Upload "
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:layout_marginTop="18dp"></TextView>
+	<TextView android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:textSize="40dp"
+		android:layout_height="wrap_content" android:id="@+id/textView2"
+		android:textColor="#000000" android:text="Picture"
+		android:layout_below="@+id/textView1" android:layout_centerHorizontal="true"></TextView>
+	<Button android:id="@+id/btnGallery" android:textColor="#FFFFFF"
+		android:text="Gallery" android:background="#4B0082"
+		android:layout_width="wrap_content" android:layout_height="50dp"
+		android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"
+		android:layout_marginTop="16dp" android:layout_alignParentRight="true"
+		android:textSize="30dp" android:textStyle="bold"></Button>
+	<ImageView android:layout_height="150dp" android:id="@+id/imageView1"
+		android:layout_width="150dp" android:src="@drawable/you"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true" android:layout_marginBottom="26dp"
+		android:layout_alignParentRight="true"></ImageView>
+	<Button android:id="@+id/btnCamera" android:textColor="#FFFFFF"
+		android:text="Camera" android:background="#FF4500"
+		android:layout_width="wrap_content" android:layout_height="50dp"
+		android:textSize="30dp" android:textStyle="bold" android:layout_below="@+id/btnGallery"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></Button>
+	<Button android:id="@+id/startedit" android:textColor="#FFFFFF"
+		android:text="Start Editing" android:background="#0000CD"
+		android:layout_width="wrap_content" android:layout_height="50dp"
+		android:textSize="30dp" android:textStyle="bold" android:layout_below="@+id/btnCamera"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></Button>
+
+</RelativeLayout>
